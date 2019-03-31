@@ -1,0 +1,14 @@
+C:\Projetos\Core\Base.Infra.CrossCutting\bin\Debug\netcoreapp2.0\Base.Infra.CrossCutting.deps.json
+C:\Projetos\Core\Base.Infra.CrossCutting\bin\Debug\netcoreapp2.0\Base.Infra.CrossCutting.dll
+C:\Projetos\Core\Base.Infra.CrossCutting\bin\Debug\netcoreapp2.0\Base.Infra.CrossCutting.pdb
+C:\Projetos\Core\Base.Infra.CrossCutting\bin\Debug\netcoreapp2.0\Base.Domain.dll
+C:\Projetos\Core\Base.Infra.CrossCutting\bin\Debug\netcoreapp2.0\Base.Infra.Data.dll
+C:\Projetos\Core\Base.Infra.CrossCutting\bin\Debug\netcoreapp2.0\Base.Domain.pdb
+C:\Projetos\Core\Base.Infra.CrossCutting\bin\Debug\netcoreapp2.0\Base.Infra.Data.pdb
+C:\Projetos\Core\Base.Infra.CrossCutting\obj\Debug\netcoreapp2.0\Base.Infra.CrossCutting.csprojAssemblyReference.cache
+C:\Projetos\Core\Base.Infra.CrossCutting\obj\Debug\netcoreapp2.0\Base.Infra.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Projetos\Core\Base.Infra.CrossCutting\obj\Debug\netcoreapp2.0\Base.Infra.CrossCutting.AssemblyInfoInputs.cache
+C:\Projetos\Core\Base.Infra.CrossCutting\obj\Debug\netcoreapp2.0\Base.Infra.CrossCutting.AssemblyInfo.cs
+C:\Projetos\Core\Base.Infra.CrossCutting\obj\Debug\netcoreapp2.0\Base.Infra.CrossCutting.csproj.CopyComplete
+C:\Projetos\Core\Base.Infra.CrossCutting\obj\Debug\netcoreapp2.0\Base.Infra.CrossCutting.dll
+C:\Projetos\Core\Base.Infra.CrossCutting\obj\Debug\netcoreapp2.0\Base.Infra.CrossCutting.pdb

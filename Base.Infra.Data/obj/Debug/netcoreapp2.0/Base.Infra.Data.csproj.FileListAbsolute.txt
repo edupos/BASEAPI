@@ -1,0 +1,12 @@
+C:\Projetos\Core\Base.Infra.Data\bin\Debug\netcoreapp2.0\Base.Infra.Data.deps.json
+C:\Projetos\Core\Base.Infra.Data\bin\Debug\netcoreapp2.0\Base.Infra.Data.dll
+C:\Projetos\Core\Base.Infra.Data\bin\Debug\netcoreapp2.0\Base.Infra.Data.pdb
+C:\Projetos\Core\Base.Infra.Data\bin\Debug\netcoreapp2.0\Base.Domain.dll
+C:\Projetos\Core\Base.Infra.Data\bin\Debug\netcoreapp2.0\Base.Domain.pdb
+C:\Projetos\Core\Base.Infra.Data\obj\Debug\netcoreapp2.0\Base.Infra.Data.csprojAssemblyReference.cache
+C:\Projetos\Core\Base.Infra.Data\obj\Debug\netcoreapp2.0\Base.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\Core\Base.Infra.Data\obj\Debug\netcoreapp2.0\Base.Infra.Data.AssemblyInfoInputs.cache
+C:\Projetos\Core\Base.Infra.Data\obj\Debug\netcoreapp2.0\Base.Infra.Data.AssemblyInfo.cs
+C:\Projetos\Core\Base.Infra.Data\obj\Debug\netcoreapp2.0\Base.Infra.Data.csproj.CopyComplete
+C:\Projetos\Core\Base.Infra.Data\obj\Debug\netcoreapp2.0\Base.Infra.Data.dll
+C:\Projetos\Core\Base.Infra.Data\obj\Debug\netcoreapp2.0\Base.Infra.Data.pdb

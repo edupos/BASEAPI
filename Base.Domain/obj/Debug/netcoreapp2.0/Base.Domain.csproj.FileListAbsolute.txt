@@ -1,0 +1,9 @@
+C:\Projetos\Core\Base.Domain\bin\Debug\netcoreapp2.0\Base.Domain.deps.json
+C:\Projetos\Core\Base.Domain\bin\Debug\netcoreapp2.0\Base.Domain.dll
+C:\Projetos\Core\Base.Domain\bin\Debug\netcoreapp2.0\Base.Domain.pdb
+C:\Projetos\Core\Base.Domain\obj\Debug\netcoreapp2.0\Base.Domain.csprojAssemblyReference.cache
+C:\Projetos\Core\Base.Domain\obj\Debug\netcoreapp2.0\Base.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\Core\Base.Domain\obj\Debug\netcoreapp2.0\Base.Domain.AssemblyInfoInputs.cache
+C:\Projetos\Core\Base.Domain\obj\Debug\netcoreapp2.0\Base.Domain.AssemblyInfo.cs
+C:\Projetos\Core\Base.Domain\obj\Debug\netcoreapp2.0\Base.Domain.dll
+C:\Projetos\Core\Base.Domain\obj\Debug\netcoreapp2.0\Base.Domain.pdb
