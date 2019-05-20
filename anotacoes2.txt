@@ -1,0 +1,106 @@
+
+docker-compose build
+
+docker save myimage:latest > c:\Imagens\myimage.tar
+
+copiar para:
+C:\imagens
+-------
+
+INSTALAR NOVA IMAGEM 
+ BITVISE
+
+SSH homolog linux
+
+entra na pasta onde está o docker-compose.yml
+e roda esse comando 
+sudo su
+sudo docker-compose down && docker rmi NomeDaImagemAntiga && docker load < ./Images_Dev/NomeImagemNova && docker-compose up -d
+sudo docker-compose down && docker rmi myapi && docker load < ./Images_Dev/myapi.tar && docker-compose up -d
+
+
+docker pull mongo
+docker run -d -p 27017:27017 -p 28017:28017 -e AUTH=no mongo
+
+https://canaltech.com.br/linux/10-comandos-essenciais-do-linux/
+---------------------
+DOCKER COMPOSE:
+
+services:
+  My.api:
+    image: myapi
+    build:
+      context: ../
+      dockerfile: ./My.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: ${ASPNETCORE_ENVIRONMENT}
+      TZ: America/Sao_Paulo
+    restart: on-failure
+    volumes:
+      - logs:/app/logs
+    ports:
+      - "5002:80"
+version: '3.4'
+volumes:
+  logs:
+---------------------------
+DOCKER FILE:
+
+FROM microsoft/aspnetcore:2.0 AS base
+WORKDIR /app
+EXPOSE 80
+
+FROM microsoft/aspnetcore-build:2.0 AS build
+WORKDIR /src
+COPY ./MyAPI/MyAPI.sln ./MyAPI/
+COPY ./MyBaseAPI/MyBaseAPI.API/MyBaseAPI.API.csproj ./MyBaseAPI/MyBaseAPI.API/
+COPY ./MYDomain/MYDomain.csproj ./MYDomain/
+RUN dotnet restore -nowarn:msb3202,nu1503 ./ExportSurveyAPI/
+COPY . .
+WORKDIR /src/MyAPI/MyAPI.API
+RUN dotnet build -c Release -o /app
+
+FROM build AS publish
+RUN dotnet publish -c Release -o /app
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app .
+ENTRYPOINT ["dotnet", "MyAPI.API.dll"]  
+
+
+
+---------------------
+LINKS
+
+Banco de dados contêiner multitenant: localhost:1521
+Banco de dados plugável: localhost:1521/XEPDB1
+URL do EM Express:  https://localhost:5500/em
+
+LINKS:
+
+https://www.oracle.com/webfolder/technetwork/tutorials/obe/db/dotnet/CodeFirst/index.html
+https://www.oracle.com/technetwork/pt/articles/database-performance/database-multitenant-oracle-12cr1-2555858-ptb.html
+
+https://entityframeworkcore.com/providers-oracle
+https://www.c-sharpcorner.com/article/asp-net-core-web-api-with-oracle-database-and-dapper/
+https://www.devmedia.com.br/introducao-ao-nhibernate-framework-para-mapeamento-objeto-relacional/28671
+
+https://king.host/blog/2018/05/introducao-ao-kubernetes/
+https://king.host/blog/2018/05/como-usar-kubernetes-na-pratica/
+https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/
+
+-----------------
+kubernates
+
+a) First find out current-context
+
+kubectl config get-contexts
+CURRENT   NAME      CLUSTER   AUTHINFO   NAMESPACE
+b) if no context is set then set it manually by using
+
+kubectl config set-context <Your context>
+
+------------------------
+
+
